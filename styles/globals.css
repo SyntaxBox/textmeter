@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: serif;
+}
+.quote::before {
+  content: "";
+  width: 10px;
+  height: 100%;
+  background-color: rgb(255, 221, 0);
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+.focus {
+  background-color: rgb(55, 183, 166);
+  color: rgb(255, 255, 255);
+}
+
+input {
+  border-radius: 0% !important;
+  -webkit-border-radius: 0% !important;
+  -moz-border-radius: 0% !important;
+  -ms-border-radius: 0% !important;
+  -o-border-radius: 0% !important;
+}
